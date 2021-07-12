@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+    android:background="@drawable/javaedited"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="Welcome to the Test App.\n Check How Much You Know Java?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:text="Start"
+        android:id="@+id/start"
+
+        android:layout_below="@id/text"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Enter your Name"
+        android:layout_margin="15dp"
+        android:id="@+id/name"
+        android:textColorHint="#303F9F"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:textColor="#FF0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:text="About"
+        android:id="@+id/about"
+        android:layout_alignParentBottom="true"
+        
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"/>
+
+
+</RelativeLayout>

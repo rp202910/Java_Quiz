@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundjava"
+    android:layout_height="match_parent"
+    tools:context=".StartTest">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey.Guest"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic|bold"
+        android:id="@+id/nameSpace"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:layout_centerHorizontal="true"
+        android:textColor="#03177C"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameSpace"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        android:text="Are you Ready?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/text1"
+        android:text="Rules :\nEvery correct answer will award you 1 mark and every wrong answer will deduct 1 mark from total marks.Questions which are bookmarked should be done at last.All stats are visible in the result page.\nThank You.\nOk be Ready!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/start"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="Ok, Starting the Test..."
+        android:background="@drawable/rounded_button"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="@android:dimen/app_icon_size"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"/>
+
+
+
+</RelativeLayout>

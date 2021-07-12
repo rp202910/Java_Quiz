@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This  app is made up for checking and improving purpose.\nYou can text me after completing your test for more questions.\nMade by:\n Roshan Pandey\n  —A Learner. "
+        android:gravity="center_horizontal"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:text="Return"
+        android:id="@+id/returne"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"/>
+
+</RelativeLayout>
